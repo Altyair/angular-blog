@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '234324234 frontend';
 
-  public test() {
-    console.log(888);
-  }
+  public test() {}
 }
