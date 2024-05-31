@@ -9,6 +9,6 @@ export class AppComponent {
   title = '234324234 frontend';
 
   public test() {
-
+    console.log(999);
   }
 }
