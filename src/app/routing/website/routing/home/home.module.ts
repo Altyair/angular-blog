@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import {RouterModule} from "@angular/router";
 import {HomePageComponent} from "./pages/home-page/home-page.component";
 import { MatSliderModule } from "@angular/material/slider";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [HomePageComponent],
   imports: [
     CommonModule,
     MatSliderModule,
+    MatDialogModule,
+    MatTableModule,
     RouterModule.forChild([
       {
         path: '',
