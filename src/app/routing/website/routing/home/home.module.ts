@@ -10,9 +10,6 @@ import {MatTableModule} from "@angular/material/table";
   declarations: [HomePageComponent],
   imports: [
     CommonModule,
-    MatSliderModule,
-    MatDialogModule,
-    MatTableModule,
     RouterModule.forChild([
       {
         path: '',

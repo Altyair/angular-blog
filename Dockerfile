@@ -1,11 +1,11 @@
 # base image
-FROM node
+FROM node:18-alpine as build
 
 # set working directory
 WORKDIR /app
 
 # install and cache app dependencies
-COPY package.json package-lock.json ./
+COPY package.json ./
 RUN npm install
 RUN npm install -g @angular/cli
 
