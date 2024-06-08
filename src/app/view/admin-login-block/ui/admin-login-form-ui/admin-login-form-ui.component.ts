@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './admin-login-form-ui.component.html',
   styleUrl: './admin-login-form-ui.component.scss'
 })
-export class AdminLoginFormUiComponent {
-
-}
+export class AdminLoginFormUiComponent {}
